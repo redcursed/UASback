@@ -7,7 +7,7 @@ const mhsSchema = new mongoose.Schema({
   },
   date: String,
   tag: String,
-  author: String,
+
 });
 
 module.exports = mongoose.model("Blog", mhsSchema, "blog");
